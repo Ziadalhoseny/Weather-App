@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* custom colors */
+  --color-weather-primary: #00668a;
+  --color-weather-secondary: #004e71;
+
+  /* custom colors */
+  --font-sans: "Roboto", sans-serif;
+
+  /* custom breakpoint*/
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+}
+
+/* custom container */
+@utility my-container {
+  width: 100%;
+  max-width: 1200px; /* or your preferred max width */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
